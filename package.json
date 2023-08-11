@@ -1,0 +1,32 @@
+{
+  "name": "5um",
+  "version": "5.0.1",
+  "description": "A 'hash' function module for Node.js written in C.",
+  "main": "./dist/hash5um.js",
+  "types": "./src/ts/hash5um.ts",
+  "bin": {
+    "5um": "./dist/index.js"
+  },
+  "scripts": {
+    "start": "node ./dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stringmanolo/5um.git"
+  },
+  "author": "StringManolo",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/stringmanolo/5um/issues"
+  },
+  "homepage": "https://github.com/stringmanolo/5um#readme",
+  "devDependencies": {
+    "@types/ffi-napi": "^4.0.7",
+    "@types/node": "^20.4.9",
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "ffi-napi": "^4.0.3"
+  }
+}
